@@ -18,7 +18,8 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.btnIntentStart).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(MainActivity.this, StartIntentActivity.class));
+                Intent intent = new Intent(MainActivity.this, StartIntentActivity.class);
+                startActivity(intent);
             }
         });
 
@@ -35,5 +36,9 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+    }
+    @Override
+    protected void onNewIntent(Intent intent) {
+        super.onNewIntent(intent);
     }
 }

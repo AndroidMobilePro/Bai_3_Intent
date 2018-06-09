@@ -15,18 +15,6 @@
         android:id="@+id/btnIntentStart"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="0" />
-
-    <android.support.v7.widget.AppCompatButton
-        android:id="@+id/btnBundleStart"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Intent Bundle startActivity" />
-
-    <android.support.v7.widget.AppCompatButton
-        android:id="@+id/btnParseObject"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Parse Object by Intent Bundle" />
+        android:text="3" />
 
 </LinearLayout>
